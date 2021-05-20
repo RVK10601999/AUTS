@@ -3,6 +3,7 @@ import numpy as np
 import re
 import matplotlib.pyplot as plt
 import streamlit as st
+import statsmodels as statsmodels
 from statsmodels.tsa.seasonal import seasonal_decompose
 from statsmodels.graphics.tsaplots import plot_acf,plot_pacf
 st.set_option('deprecation.showPyplotGlobalUse', False)
